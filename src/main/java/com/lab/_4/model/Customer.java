@@ -55,4 +55,14 @@ public class Customer {
     public void setTotalCustomerMileage(int totalCustomerMileage) {
         this.totalCustomerMileage = totalCustomerMileage;
     }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", customerName='" + customerName + '\'' +
+                ", status=" + status +
+                ", totalCustomerMileage=" + totalCustomerMileage +
+                '}';
+    }
 }

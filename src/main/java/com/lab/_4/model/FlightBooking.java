@@ -44,4 +44,13 @@ public class FlightBooking {
     public void setCustomerId(int customerId) {
         this.customerId = customerId;
     }
+
+    @Override
+    public String toString() {
+        return "FlightBooking{" +
+                "bookingId=" + bookingId +
+                ", flightId=" + flightId +
+                ", customerId=" + customerId +
+                '}';
+    }
 }

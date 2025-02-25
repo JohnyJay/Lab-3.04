@@ -66,4 +66,15 @@ public class Flight {
     public void setFlightMileage(int flightMileage) {
         this.flightMileage = flightMileage;
     }
+
+    @Override
+    public String toString() {
+        return "Flight{" +
+                "flightId=" + flightId +
+                ", flightNumber='" + flightNumber + '\'' +
+                ", aircraft='" + aircraft + '\'' +
+                ", totalAircraftSeats=" + totalAircraftSeats +
+                ", flightMileage=" + flightMileage +
+                '}';
+    }
 }
